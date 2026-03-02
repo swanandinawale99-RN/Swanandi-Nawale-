@@ -1,0 +1,24 @@
+student={"name":"Nandu","age":18,"city": "Mumbai"}
+print("City:", student["city"])
+
+student ["department"]="IT" 
+print("After adding department:",student)
+
+student ["name"]="Purva"
+print("After updating name:",student)
+
+student.pop("age")
+print("After removing age:",student)
+
+values=student.values()
+print("Values:", values)
+
+print("Dictionary items:")
+for key, value in student.items(): 
+  print(f"{key}:{value}")
+
+student_copy=student.copy()
+print("Copy of dictionary:", student_copy)
+
+student.clear()
+print("After clear:", student)
